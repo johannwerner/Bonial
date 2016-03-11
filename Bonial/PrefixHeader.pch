@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  Bonial
+//
+//  Created by Johann Werner on 2016/03/09.
+//  Copyright © 2016 Bonial. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Constants.h"
+
+#endif
