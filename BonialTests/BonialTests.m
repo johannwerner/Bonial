@@ -21,9 +21,9 @@
     NSString *expectedResultForMoreThanOneItem = @"2 items";
     NSString *expectedResultForMoreZeroItem = @"0 items";
     
-    NSString *resultForOneItem = [DisplayItemsString stringForUnitCount:1];
-    NSString *resultForTwoItems = [DisplayItemsString stringForUnitCount:2];
-    NSString *resultForZeroItems = [DisplayItemsString stringForUnitCount:0];
+    NSString *resultForOneItem = [DisplayItemsString stringForItemCount:1];
+    NSString *resultForTwoItems = [DisplayItemsString stringForItemCount:2];
+    NSString *resultForZeroItems = [DisplayItemsString stringForItemCount:0];
     
     XCTAssertEqualObjects(expectedResultForOneItem, resultForOneItem);
     XCTAssertEqualObjects(expectedResultForMoreThanOneItem, resultForTwoItems);
